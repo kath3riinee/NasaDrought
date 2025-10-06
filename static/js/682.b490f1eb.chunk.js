@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkterrashield=self.webpackChunkterrashield||[]).push([[682],{8682:(e,s,a)=>{a.r(s),a.d(s,{default:()=>h});a(5043);var r=a(1688),t=a(579);const h=()=>(0,t.jsx)(r.rd,{to:"/heatmap"})}}]);
+//# sourceMappingURL=682.b490f1eb.chunk.js.map
