@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkterrashield=self.webpackChunkterrashield||[]).push([[33],{2033:(e,r,s)=>{s.r(r),s.d(r,{default:()=>a});s(5043);var n=s(579);function a(){return(0,n.jsxs)("div",{style:{padding:"2rem",color:"#333"},children:[(0,n.jsx)("h1",{children:"Heatmap Page"}),(0,n.jsx)("p",{children:"This is your new page component."})]})}}}]);
-//# sourceMappingURL=33.0c23fbea.chunk.js.map
