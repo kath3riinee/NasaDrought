@@ -6,6 +6,9 @@ const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
 
 const Home = () => {
+  // Prefix for public images (this ensures icons load correctly on GitHub Pages)
+  const publicUrl = process.env.PUBLIC_URL + "/img/illustrations/";
+
   return (
     <Container>
       <ScrollToTop />
@@ -14,7 +17,7 @@ const Home = () => {
       <ContentBlock
         direction="right"
         title="TerraShield"
-        icon="waving.svg"
+        icon={`${publicUrl}waving.svg`}
         id="product"
         content={`
 TerraShield predicts drought conditions up to a year in advance and provides
@@ -29,7 +32,7 @@ enables farmers to make informed decisions that safeguard both their land and li
       <ContentBlock
         direction="left"
         title="Our Mission"
-        icon="product-launch.svg"
+        icon={`${publicUrl}product-launch.svg`}
         id="mission"
         content={`
 Our mission is to empower farmers with accurate, timely, and actionable drought insights.
@@ -42,7 +45,7 @@ minimize losses, and strengthen agricultural resilience in an era of increasing 
       <ContentBlock
         direction="right"
         title="About Us"
-        icon="graphs.svg"
+        icon={`${publicUrl}graphs.svg`}
         id="about"
         content={`
 Astral Control was founded to bridge the gap between science, technology, and sustainable farming.
@@ -61,7 +64,7 @@ and opportunity.
       <ContentBlock
         direction="left"
         title="The Problem"
-        icon="graphs.svg"
+        icon={`${publicUrl}graphs.svg`}
         id="solutions"
         content={`
 Each year, drought causes billions of dollars in agricultural losses across North America.
@@ -79,7 +82,7 @@ replant without access to reliable forecasts or long-term adaptation tools.
       <ContentBlock
         direction="right"
         title="The Solution"
-        icon="developer.svg"
+        icon={`${publicUrl}developer.svg`}
         id="solutions2"
         content={`
 TerraShield breaks this cycle by merging advanced climate forecasting with practical
@@ -99,7 +102,7 @@ sustainable agricultural resilience.
       <ContentBlock
         direction="left"
         title="Consulting Services"
-        icon="waving.svg"
+        icon={`${publicUrl}waving.svg`}
         id="consulting"
         content={`
 Our consulting services extend the capabilities of TerraShield by offering direct support
@@ -122,7 +125,7 @@ Essential — $249 per year; Professional — $599 per year; Enterprise — $2,4
       <ContentBlock
         direction="right"
         title="Infrastructure & Growth"
-        icon="graphs.svg"
+        icon={`${publicUrl}graphs.svg`}
         id="infrastructure"
         content={`
 The TerraShield platform is built to grow seamlessly with new data and demand.
@@ -141,7 +144,7 @@ and soil data, forming the backbone of a continental-scale drought prediction ne
       <ContentBlock
         direction="left"
         title="Performance Insights"
-        icon="product-launch.svg"
+        icon={`${publicUrl}product-launch.svg`}
         id="performance"
         content={`
 Farmers using TerraShield have achieved measurable improvements in both productivity
@@ -164,7 +167,6 @@ resilience of the agricultural sector as a whole.
 For partnership inquiries, collaborations, or technical support, please contact us directly.
 
 Email: terrashield@gmail.com
-
 `}
       />
     </Container>
